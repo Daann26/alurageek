@@ -1,0 +1,29 @@
+
+@import url(CSS/reset.css);
+@import url(CSS/header.css);
+@import url(CSS/main.css);
+@import url(CSS/footer.css);
+
+
+
+:root{
+    
+    --color-primario: #375979;
+    --color-secundario:#46728f;
+    --color-terciario:#5590a2;
+    --color-cuarto: #abd6d1;
+    --color-quinto: #e9f6f6;
+   
+}
+body {
+    box-sizing: border-box;
+    background :var(--color-quinto);
+}
+h2 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+

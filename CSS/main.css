@@ -1,0 +1,224 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px 20px;
+}
+.container_galeria {
+    width: 810px;
+    height: 900px;
+    border-radius: 10px;
+    padding: 20px;
+    border:  1px dashed var(--color-secundario);
+  }
+  .container_galeria h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+  }
+
+  .container_productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    gap: 15px;
+    height: 800px; 
+    padding: 25px ; 
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 250px;
+    width: 200px;
+    background-color: var(--color-secundario);
+    border-radius: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid #0D0D0D;
+    margin-bottom: 5px; 
+}
+
+.card:nth-child(3n) {
+    margin-right: 0;
+}
+.card:nth-child(n+4) {
+    margin-top: 10px; 
+}
+  
+.producto_name{
+    color: #f2f2f2f2;
+    margin-bottom: 25px; 
+    text-align: center; 
+}
+.img_contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.producto_img {
+   width:85%;
+    height:85%;
+    object-fit: cover;  
+    border-radius: 5px 5px 3px 3px;
+    margin: 5px;    
+    box-sizing: border-box;
+    border: 2px solid #0D0D0D;
+    
+}
+
+.valor_producto{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.delete_button{
+  opacity: 0;
+  position: relative;
+  left: 3.7rem;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.producto_precio{
+     color: #f2f2f2f2;
+    position: relative;
+}
+
+
+
+
+/*formulario*/
+
+.contenedor_form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    max-width: 400px;
+    margin-left: 1rem;
+    border:  1px dashed var(--color-secundario);
+    border-radius: 10px;
+  
+    h2 {
+        margin:1rem ;
+       text-align: center;
+       font-size: 1.5rem;
+       font-weight: bold;
+       margin-bottom: 1rem;
+
+    }
+  }
+
+
+.formulario {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+.inputs_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+.input_name,
+.input_image,
+.input_price,
+.input_description {
+  min-width: 265px;
+  max-width: 400px;
+  margin: 0px 20px;
+}
+
+.etiquetas_formulario {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+ 
+ }
+
+ .input {
+    padding-left: 35px;
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color-primario);
+}
+
+.input:focus-visible {
+  outline: none;
+  box-shadow: 1.2px 1.2px 1.2px 1.2px var(--color-primario);
+  
+}
+
+.input_styles {
+    position: relative;
+    margin-top: 9px;
+    margin-bottom: 19px;
+    width: 100%;
+  }
+  
+  .contenedor_botones {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    width: 100%;
+  }
+
+.boton_enviar{
+    border-width: 1.5px;
+    transition: transform 0.2s linear, background-color 0.2s linear;
+    letter-spacing: 0.052rem;
+    margin: 10px 10px;
+    width: 130px;
+    height: 28px;
+    border-radius: 50px;
+    background: var(--color-terciario);
+    border-color: #0D0D0D;
+    border-style: solid;
+
+  }
+
+  .boton_enviar:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .boton_limpiar{
+    border-width: 1px;
+    transition: transform 0.2s linear, background-color 0.2s linear;
+    letter-spacing: 0.052rem;
+    margin: 10px 10px;
+    width: 130px;
+    height: 28px;
+    border-radius: 50px;
+    background: var(--color-cuarto);
+    border-color: var(--color-primario);
+  }
+
+  .boton_limpiar:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  
+
+
+
+
+  

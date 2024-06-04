@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Pontano+Sans:wght@300..700&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e6aa4b56b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">
+                <h1>AluraGeek</h1>
+                <i class="fa-solid fa-gamepad" style="color: #ffffff;"></i>
+            </div>
+    </header>
+
+    <main>
+        <section class="container_galeria">
+            <h2>MIS PRODUCTOS:</h2>
+
+            <div data-product class="container_productos"></div>
+        </section>
+        <section class="contenedor_form">
+            <h2>AGREGAR PRODUCTOS:</h2>
+            <form class="formulario" data-form>
+                <div class="inputs_form">
+                    <div class="input_name">
+                        <label  class="etiquetas_formulario">NOMBRE
+                            <div class="input_styles">
+                            <input
+                                class="input"
+                                type="text"
+                                name="nombre"
+                                placeholder="Nombre"
+                                pattern="^[a-zA-ZÀ-ÿ\s]+$"
+                                maxlength="19"
+                                data-name
+                                required
+                              />
+                            </div>  
+                        </label>
+                    </div>
+                    <div class="input_price">
+                        <label class="etiquetas_formulario">PRECIO
+                            <div class="input_styles">
+                              <input
+                                class="input"
+                                type="text"
+                                name="precio"
+                                placeholder="1.000.000"
+                               
+                                maxlength="6"
+                                max="999999"
+                                data-price
+                                required 
+                               />
+                            </div>
+                        </label>
+                    </div>
+                    <div class="input_image">
+                        <label class="etiquetas_formulario">IMAGEN
+                            <div class="input_styles">
+                                <input
+                                class="input"
+                                type="text"
+                                name="imagen"
+                                placeholder="Enlace de la imagen"
+                                data-image
+                                required
+                                />
+                            </div>
+                        </label>
+                    </div>
+                 <div class="contenedor_botones">
+                        <button id="button_submit" class="boton_enviar" type="submit">ENVIAR</button>
+                        <button id="button_reset" class="boton_limpiar" type="reset">LIMPIAR</button>
+                    </div>
+                  </div>
+                 </form>
+             </section>
+          </main>
+        <footer>
+           <div class="descripcion_des">
+            <h3>AluraGeek</h3>
+             <i class="fa-solid fa-gamepad" style="color: #ffffff;"></i>
+                <div class="text">
+                    <p>Desarrollado por: Daniel Hormazabal</p>
+                    <p>ALURA LATAM - 2024</p>
+                </div>
+           </div> 
+     </footer>
+     <script type="module" src="js/controllers/main.js"></script>
+  </body>
+</html>

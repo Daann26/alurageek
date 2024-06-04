@@ -1,0 +1,31 @@
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+.logo{
+    width: 100%;
+    background: var(--color-primario);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+ .logo h1{
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+  padding-top: 2rem;  
+  position: relative;
+ }
+ .logo i{
+  font-size: 2.5rem;
+  margin-top: 2rem;
+
+ }

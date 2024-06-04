@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "name": "Harry Potter Funko Pop! 01",
+      "price": "$ 10.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_723643-MCO47768166460_102021-O.webp",
+      "id": 1
+    },
+    {
+      "name": "Taza Darth Vader",
+      "price": "$ 8.000",
+      "image": "https://lavieja.pe/wp-content/uploads/2023/10/WhatsAppImage2022-07-05at1.34.00PM_1.jpg",
+      "id": 2
+    },
+    {
+      "name": "Joystick Inalámbrico Dualsence Ps5",
+      "price": "$ 35.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_653979-MLU75209281062_032024-O.webp",
+      "id": 3
+    },
+    {
+      "name": "Spiderman Homecoming",
+      "price": "$ 15.000",
+      "image": "https://home.ripley.cl/store/Attachment/WOP/D175/2000374101462/2000374101462-1.jpg",
+      "id": 4
+    },
+    {
+      "name": "Hedwig Funko pop! 76",
+      "price": "$ 10.000",
+      "image": "https://snake.cl/wp-content/uploads/2023/07/Hedwig.jpg",
+      "id": 5
+    },
+    {
+      "name": "Figura Baby Yoda",
+      "price": "$ 20.000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD8wQ2Wgg5Qb1ue0QNU7GHKAPZeoqCEGyI2w&s",
+      "id": 6
+    },
+    {
+      "name": "Consola Play Station 5",
+      "price": "$ 650.000",
+      "image": "https://falabella.scene7.com/is/image/Falabella/gsc_126614389_4625766_4?wid=800&hei=800&qlt=70",
+      "id": 7
+    },
+    {
+      "name": "Zoro Roronoa",
+      "price": "$ 12.000",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_648179-CBT49125791518_022022-O.webp",
+      "id": 8
+    },
+    {
+      "id": "edfa",
+      "name": "Luffy Gear Five",
+      "price": "15.000",
+      "image": "https://falabella.scene7.com/is/image/Falabella/gsc_122304369_3313346_1?wid=1500&hei=1500&qlt=70"
+    }
+  ]
+}
